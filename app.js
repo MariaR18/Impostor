@@ -96,7 +96,9 @@ const words = [
     "Despedida de soltero",
     "Boda",
     "Cámara",
-    "Glaciar"
+    "Glaciar",
+    "Llave",
+    "Gimnasio"
 ];
 
 let currentWord = "";
