@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Juego del Impostor</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <main class="card">
+        <h1>🎭 Juego del Impostor</h1>
+        <p class="subtitle">Elige jugadores e impostores. ¡A jugar!</p>
+
+        <section id="setup">
+            <label class="field">
+                <span>Número de jugadores</span>
+                <input id="players" type="number" min="3" max="20" value="6" />
+            </label>
+
+            <label class="field">
+                <span>Número de impostores</span>
+                <input id="impostors" type="number" min="1" max="20" value="1" />
+            </label>
+
+            <button id="startBtn" class="btn primary">Empezar</button>
+            <p id="setupError" class="error" aria-live="polite"></p>
+        </section>
+
+        <section id="reveal" class="hidden">
+            <h2 id="turnTitle">Jugador</h2>
+
+            <button id="revealBtn" class="btn">Ver mi rol</button>
+
+            <div id="secret" class="secret hidden" role="status" aria-live="polite"></div>
+
+            <button id="nextBtn" class="btn primary hidden">Siguiente jugador</button>
+        </section>
+
+        <section id="done" class="hidden">
+            <h2>✅ Roles repartidos</h2>
+            <p>¡Empezad a jugar! </p>
+            <button id="restartBtn" class="btn">Nueva partida</button>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
