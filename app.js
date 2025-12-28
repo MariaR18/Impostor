@@ -19,7 +19,6 @@ const words = [
     "Valencia",
     "Zaragoza",
     "Granada",
-    "Alicante",
     "Sevilla",
 
     // Asignaturas colegio (tema)
@@ -32,8 +31,6 @@ const words = [
 
     // Marcas de alcohol o tipos (tema)
     "Vodka",
-    "Ginebra",
-    "Ron",
     "Tequila",
     "Cerveza",
     "Vino blanco",
@@ -55,7 +52,6 @@ const words = [
     "Delfín",
     "Águila",
     "Mono",
-    "Conejo",
     "Loro",
     "Tortuga",
     "Rinoceronte",
@@ -65,8 +61,6 @@ const words = [
 
     // Muebles (tema)
     "Sofá",
-    "Mesa",
-    "Silla",
     "Cama",
 
     // Palabras literales
@@ -98,7 +92,8 @@ const words = [
     "Cámara",
     "Glaciar",
     "Llave",
-    "Gimnasio"
+    "Gimnasio",
+    "Isaac"
 ];
 
 let currentWord = "";
