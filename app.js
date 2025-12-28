@@ -93,7 +93,32 @@ const words = [
     "Glaciar",
     "Llave",
     "Gimnasio",
-    "Isaac"
+    "Isaac",
+    "Trincho",
+    "Bulgaria",
+    "Bolera",
+    "Ruleta",
+    "Marihuana",
+    "Peluqería",
+    "BCM (discoteca maallorca)",
+    "Embarazo",
+    "Oculista",
+    "Obra",
+    "Feria",
+    "Zevra",
+    "Racismo",
+    "Valencia CF",
+    "Iglesia",
+    "Gobierno",
+    "Cuernos",
+    "Obesidad",
+    "Nike",
+    "Fornite",
+    "Ginecologo",
+    "Farmcia",
+    "Sauna Gay",
+    "Porn HUb"
+
 ];
 
 let currentWord = "";
